@@ -1,0 +1,60 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;  /* Adjust as needed */
+    max-height: 80vh;  /* Restrict height to viewport */
+    overflow-y: auto;  /* Enables scrolling inside the modal */
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .formbtn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .exit {
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .exit:hover {
+    background-color: darkred;
+  }
+  
+
+
+
+div{
+    margin: 10px;
+    
+}
+
+
+
+
+
+button.exit{
+    background-color: rgb(86, 86, 137);
+}

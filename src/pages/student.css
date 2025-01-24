@@ -1,0 +1,101 @@
+/* Global Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders between cells are merged */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow to elevate the table */
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light border between columns */
+  }
+  
+  /* Table Header */
+  th {
+    background-color: #4A5568; /* Dark background for the header */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1.1rem; /* Slightly larger font for headers */
+    font-weight: bold;
+    border-top: 1px solid #2d3748;
+    border-bottom: 1px solid #2d3748;
+  }
+  
+  /* Table Data */
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #4e6b91; /* Light gray border between rows */
+    font-size: 1rem;
+  }
+
+  
+  /* Hover Effect for Rows */
+  tbody tr:hover {
+    background-color: #5b7775; /* Slightly lighter background when hovering over rows */
+  }
+  
+  /* Styling for Action Buttons */
+  button {
+    padding: 4px 10px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  button.add{
+    background-color: #4e6b91;
+
+  }
+  
+  button.text-blue-500 {
+    background-color: #4299e1; /* Blue for 'View' */
+    color: white;
+  }
+  
+  button.text-blue-500:hover {
+    background-color: #3182ce; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  button.text-yellow-500 {
+    background-color: #ecc94b; /* Yellow for 'Edit' */
+    color: white;
+  }
+  
+  button.text-yellow-500:hover {
+    background-color: #d69e2e; /* Darker yellow on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  button.text-red-500 {
+    background-color: #e53e3e; /* Red for 'Delete' */
+    color: white;
+  }
+  
+  button.text-red-500:hover {
+    background-color: #915050; /* Darker red on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Action Button Container */
+  td button {
+    margin-right: 5px; /* Spacing between buttons */
+    padding: 6px 12px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 8px; /* Reduce padding for smaller screens */
+    }
+  
+    button {
+      font-size: 0.8rem; /* Slightly smaller buttons for mobile */
+      padding: 5px 10px;
+    }
+  }
+  

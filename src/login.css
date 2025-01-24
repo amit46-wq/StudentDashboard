@@ -1,0 +1,139 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;  /* Light background for the page */
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f5f5f5;  /* Light gray background */
+  }
+  
+  /* Login Form Styling */
+  .bg-white {
+    background-color: white;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .rounded {
+    border-radius: 8px;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;  /* For the title */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .border {
+    border: 1px solid #ddd;  /* Light gray border */
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Input Fields Styling */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50;  /* Green focus effect */
+  }
+  
+  /* Button Styling */
+  .bg-blue-500 {
+    background-color: #007BFF;  /* Blue button color */
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-2 {
+    padding: 0.8rem;
+  }
+  
+  button {
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;  /* Dark blue on hover */
+    transform: translateY(-2px); /* Slight elevation on hover */
+  }
+  
+  button:active {
+    background-color: #004085;  /* Darker blue when clicked */
+    transform: translateY(0);  /* Reset elevation */
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 600px) {
+    .p-8 {
+      padding: 1rem;  /* Reduce padding on smaller screens */
+    }
+  
+    .text-2xl {
+      font-size: 1.2rem;  /* Smaller text on smaller screens */
+    }
+  
+    .w-full {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,132 @@
+/* sidebar.css */
+/* Global sidebar styling */
+
+/* Sidebar general improvements 
+.sidebar {
+  width: 25rem; 
+  position: fixed; 
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #2d3748;
+  color: white;
+  overflow-y: auto;
+}*/
+/* Updated list item hover effect */
+li:hover {
+  background-color: #4A5568; /* Consistent dark gray for hover */
+  transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Active state improvements for links */
+li:active {
+  background-color: #1A202C; /* Darker gray for active state */
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  .w-60 {
+    width: 12rem; /* Slightly narrower for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .w-60 {
+    width: 100%;
+  }
+}
+
+
+.w-60 {
+  width: 18rem; 
+}
+
+
+  
+.bg-gray-800 {
+  background-color: #2d3748;  /* Dark background for the sidebar */
+}
+  
+.text-white {
+  color: white;
+}
+
+.h-screen {
+  height: 100vh;  /* Full screen height */
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+/* Title styling */
+.text-2xl {
+  font-size: 1.5rem;  /* Font size for the title */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+  background-color: #4A5568;  /* Darker background on hover */
+  transform: translateX(5px);  /* Slight push effect */
+}
+
+li:active {
+  background-color: #2d3748;  /* Keep the original color when clicked */
+}
+
+/* Styling for the 'Students Page' link */
+li:nth-child(1) {
+  background-color: #4A5568;  /* Dark gray background for the first item */
+}
+
+li:nth-child(1):hover {
+  background-color: #346ed1;  /* Slightly darker gray when hovering */
+}
+
+/* Styling for the 'Logout' link */
+li:nth-child(2) {
+  background-color: #E53E3E;  /* Red background for logout */
+}
+
+li:nth-child(2):hover {
+  background-color: #C53030;  /* Darker red when hovering */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .w-60 {
+    width: 12rem;  /* Slightly smaller sidebar for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .w-60 {
+    width: 100%;  /* Full width sidebar on smaller screens */
+  }
+
+  .text-2xl {
+    font-size: 1.2rem;  /* Slightly smaller font on mobile */
+  }
+}
+  
