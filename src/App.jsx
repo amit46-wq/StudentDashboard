@@ -4,7 +4,7 @@ import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from "./firebaseConfig";
 import Login from "./login";
 import Students from "./pages/Students";
-/*import "./app.css"*/
+/*import "./App.css"*/
 
 import './app.css'
 function App() {
